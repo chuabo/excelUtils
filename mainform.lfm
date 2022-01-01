@@ -1,0 +1,286 @@
+object Form1: TForm1
+  Left = 321
+  Height = 538
+  Top = 118
+  Width = 862
+  Caption = 'ExcelUtils'
+  ClientHeight = 538
+  ClientWidth = 862
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  ShowHint = True
+  LCLVersion = '1.8.4.0'
+  object Panel1: TPanel
+    Left = 744
+    Height = 538
+    Top = 0
+    Width = 118
+    Align = alRight
+    BevelOuter = bvNone
+    ClientHeight = 538
+    ClientWidth = 118
+    TabOrder = 0
+    object BtnOpen: TButton
+      Left = 8
+      Height = 25
+      Top = 31
+      Width = 99
+      Caption = 'Open...'
+      OnClick = BtnOpenClick
+      TabOrder = 0
+    end
+    object BtnSave: TButton
+      Left = 8
+      Height = 25
+      Top = 58
+      Width = 99
+      Caption = 'Save...'
+      OnClick = BtnSaveClick
+      TabOrder = 1
+    end
+    object CbReadFormulas: TCheckBox
+      Left = 8
+      Height = 21
+      Top = 168
+      Width = 107
+      Caption = 'Read formulas'
+      OnChange = CbReadFormulasChange
+      TabOrder = 2
+    end
+    object CbAutoCalc: TCheckBox
+      Left = 8
+      Height = 21
+      Top = 192
+      Width = 75
+      Caption = 'Auto calc'
+      OnChange = CbAutoCalcChange
+      TabOrder = 3
+    end
+    object Label2: TLabel
+      Left = 10
+      Height = 12
+      Top = 264
+      Width = 60
+      Caption = '查找范围：'
+      ParentColor = False
+    end
+    object edtFindRange: TEdit
+      Left = 65
+      Height = 25
+      Top = 256
+      Width = 41
+      TabOrder = 4
+      Text = 'A:C'
+    end
+    object Label3: TLabel
+      Left = 10
+      Height = 12
+      Top = 296
+      Width = 48
+      Caption = '查找列：'
+      ParentColor = False
+    end
+    object edtFindVal: TEdit
+      Left = 64
+      Height = 25
+      Top = 288
+      Width = 40
+      TabOrder = 5
+      Text = 'E'
+    end
+    object Label4: TLabel
+      Left = 10
+      Height = 12
+      Top = 360
+      Width = 48
+      Caption = '结果列：'
+      ParentColor = False
+    end
+    object edtResult: TEdit
+      Left = 64
+      Height = 25
+      Top = 352
+      Width = 40
+      TabOrder = 6
+      Text = 'F'
+    end
+    object Label5: TLabel
+      Left = 10
+      Height = 12
+      Top = 328
+      Width = 48
+      Caption = '返回列：'
+      ParentColor = False
+    end
+    object edtFindRet: TEdit
+      Left = 63
+      Height = 25
+      Top = 320
+      Width = 39
+      TabOrder = 7
+      Text = 'B'
+    end
+    object lbState: TLabel
+      Left = 14
+      Height = 12
+      Top = 385
+      Width = 36
+      Caption = '0 -> 0'
+      ParentColor = False
+    end
+    object cbIgnoreFirst: TCheckBox
+      Left = 10
+      Height = 21
+      Top = 224
+      Width = 82
+      Caption = '首行不处理'
+      Checked = True
+      State = cbChecked
+      TabOrder = 8
+    end
+    object BtnNew: TButton
+      Left = 8
+      Height = 25
+      Top = 0
+      Width = 99
+      Caption = 'New...'
+      OnClick = BtnNewClick
+      TabOrder = 9
+    end
+    object btnFind: TButton
+      Left = 10
+      Height = 25
+      Top = 88
+      Width = 95
+      Caption = 'Find'
+      OnClick = btnFindClick
+      TabOrder = 10
+    end
+    object btnStop: TButton
+      Left = 10
+      Height = 25
+      Top = 120
+      Width = 95
+      Caption = 'Stop'
+      OnClick = btnStopClick
+      TabOrder = 11
+    end
+  end
+  object Panel3: TPanel
+    Left = 0
+    Height = 538
+    Top = 0
+    Width = 744
+    Align = alClient
+    BevelOuter = bvNone
+    Caption = 'Panel3'
+    ClientHeight = 538
+    ClientWidth = 744
+    TabOrder = 1
+    object Panel2: TPanel
+      Left = 0
+      Height = 32
+      Top = 0
+      Width = 744
+      Align = alTop
+      BevelOuter = bvNone
+      ClientHeight = 32
+      ClientWidth = 744
+      TabOrder = 0
+      object Label1: TLabel
+        Left = 8
+        Height = 12
+        Top = 8
+        Width = 42
+        Caption = 'Sheets:'
+        ParentColor = False
+      end
+      object SheetsCombo: TComboBox
+        Left = 72
+        Height = 25
+        Top = 4
+        Width = 664
+        Anchors = [akTop, akLeft, akRight]
+        ItemHeight = 17
+        ItemIndex = 0
+        Items.Strings = (
+          'Sheet 1'
+        )
+        OnSelect = SheetsComboSelect
+        Style = csDropDownList
+        TabOrder = 0
+        Text = 'Sheet 1'
+      end
+    end
+    object WorksheetGrid: TsWorksheetGrid
+      Left = 0
+      Height = 280
+      Top = 32
+      Width = 744
+      AutoCalc = True
+      FrozenCols = 0
+      FrozenRows = 0
+      PageBreakPen.Color = clBlue
+      PageBreakPen.Style = psDash
+      ReadFormulas = True
+      WorkbookSource = WorksheetGrid.internal
+      Align = alClient
+      AutoAdvance = aaDown
+      ColCount = 10
+      DefaultColWidth = 64
+      DefaultRowHeight = 22
+      MouseWheelOption = mwGrid
+      Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSizing, goColSizing, goEditing, goThumbTracking, goDblClickAutoSize, goSmoothScroll, goHeaderHotTracking, goHeaderPushedLook, goFixedColSizing, goCellHints]
+      RowCount = 10
+      TabOrder = 1
+      TitleStyle = tsNative
+    end
+    object Panel4: TPanel
+      Left = 0
+      Height = 221
+      Top = 317
+      Width = 744
+      Align = alBottom
+      Caption = 'Panel4'
+      ClientHeight = 221
+      ClientWidth = 744
+      TabOrder = 2
+      object memLog: TMemo
+        Left = 1
+        Height = 219
+        Top = 1
+        Width = 742
+        Align = alClient
+        Lines.Strings = (
+          ''
+        )
+        OnDblClick = memLogDblClick
+        ScrollBars = ssBoth
+        TabOrder = 0
+      end
+    end
+    object Splitter1: TSplitter
+      Cursor = crVSplit
+      Left = 0
+      Height = 5
+      Top = 312
+      Width = 744
+      Align = alBottom
+      ResizeAnchor = akBottom
+    end
+  end
+  object OpenDialog: TOpenDialog
+    DefaultExt = '.xls'
+    Filter = 'Excel spreadsheet (*.xls)|*.xls|Excel XML spreadsheet (*.xlsx)|*.xlsx|LibreOffice/OpenOffice spreadsheet (*.ods)|*.ods|Wikitable (pipes) (.wikitable_pipes)|.wikitable_pipes|All files (*.*)|*.*'
+    Options = [ofExtensionDifferent, ofEnableSizing, ofViewDetail]
+    left = 184
+    top = 200
+  end
+  object SaveDialog: TSaveDialog
+    DefaultExt = '.xls'
+    Filter = 'Excel spreadsheet (*.xls)|*.xls|Excel XML spreadsheet (*.xlsx)|*.xlsx|LibreOffice/OpenOffice spreadsheet (*.ods)|*.ods|Wikitable (wikimedia) (.wikitable_wikimedia)|*.wikitable_wikimedia'
+    Options = [ofOverwritePrompt, ofExtensionDifferent, ofEnableSizing, ofViewDetail]
+    left = 184
+    top = 264
+  end
+end

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <Units Count="11">
+      <Unit0>
+        <Filename Value="fpsgrid.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="15"/>
+        <UsageCount Value="167"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="295"/>
+        <CursorPos X="5" Y="310"/>
+        <UsageCount Value="167"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <TopLine Value="2316"/>
+        <CursorPos X="15" Y="2325"/>
+        <UsageCount Value="69"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\lcl\include\control.inc"/>
+        <TopLine Value="2911"/>
+        <CursorPos Y="2915"/>
+        <UsageCount Value="68"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="lib\x86_64-win64\mainform.lrs"/>
+        <CursorPos Y="81"/>
+        <UsageCount Value="72"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\lcl\lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <TopLine Value="88"/>
+        <UsageCount Value="68"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\lcl\lclmessageglue.pas"/>
+        <UnitName Value="LCLMessageGlue"/>
+        <TopLine Value="112"/>
+        <CursorPos X="29" Y="118"/>
+        <UsageCount Value="67"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <TopLine Value="1484"/>
+        <CursorPos X="15" Y="1487"/>
+        <UsageCount Value="67"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\fpc\3.0.4\source\packages\rtl-objpas\src\inc\strutils.pp"/>
+        <UsageCount Value="66"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\fpc\3.0.4\source\rtl\objpas\sysutils\syshelph.inc"/>
+        <CursorPos X="3" Y="5"/>
+        <UsageCount Value="9"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <TopLine Value="36"/>
+        <CursorPos X="36" Y="41"/>
+        <UsageCount Value="8"/>
+      </Unit10>
+    </Units>
+    <JumpHistory Count="23" HistoryIndex="22">
+      <Position1>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="10" Column="35" TopLine="10"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="85" Column="3" TopLine="80"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="84" Column="3" TopLine="79"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="85" Column="3" TopLine="80"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="84" Column="3" TopLine="79"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="83" Column="3" TopLine="78"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="85" Column="3" TopLine="80"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="283" Column="3" TopLine="281"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="150" Column="3" TopLine="137"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="256" Column="3" TopLine="251"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="206" Column="7" TopLine="159"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="60" Column="22" TopLine="52"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="161" Column="10" TopLine="150"/>
+      </Position13>
+      <Position14>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="163" Column="10" TopLine="150"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="167" Column="10" TopLine="153"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="171" Column="10" TopLine="157"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="175" Column="10" TopLine="161"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="194" Column="12" TopLine="183"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="206" Column="14" TopLine="192"/>
+      </Position19>
+      <Position20>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="413" Column="31" TopLine="405"/>
+      </Position20>
+      <Position21>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="192" Column="9" TopLine="196"/>
+      </Position21>
+      <Position22>
+        <Filename Value="fpsgrid.lpr"/>
+        <Caret Line="15"/>
+      </Position22>
+      <Position23>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="310" Column="5" TopLine="295"/>
+      </Position23>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="3">
+      <Item1>
+        <Expression Value="arr_str[k]"/>
+      </Item1>
+      <Item2>
+        <Expression Value="lines"/>
+      </Item2>
+      <Item3>
+        <Expression Value="s"/>
+      </Item3>
+    </Watches>
+  </Debugging>
+</CONFIG>
